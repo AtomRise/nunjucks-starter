@@ -1,0 +1,86 @@
+:root {
+  font-size: 16px; }
+
+@media (min-width: 320px) and (max-width: 960px) {
+  :root {
+    font-size: -webkit-calc( 16px + (20 - 16) * ( (100vw - 320px) / ( 960 - 320)));
+    font-size: calc( 16px + (20 - 16) * ( (100vw - 320px) / ( 960 - 320))); } }
+
+@media (min-width: 960px) {
+  :root {
+    font-size: 20px; } }
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+ul,
+p,
+a,
+img,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+main,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+input,
+textarea {
+  font-size: inherit;
+  font-family: inherit; }
+
+embed,
+iframe,
+img,
+object,
+video,
+svg {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+h1 {
+  font-size: 185%;
+  margin-bottom: 1rem;
+  line-height: 1.2; }
+
+h2 {
+  font-size: 150%;
+  margin-bottom: 0.5rem;
+  line-height: 1.2; }
+
+h3 {
+  font-size: 125%;
+  margin-bottom: 0.5rem; }
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.5; }
